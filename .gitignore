@@ -1,0 +1,41 @@
+# GameMaker temporary and build files
+*.yyz
+*.yymps
+*.zip
+*.exe
+*.dll
+*.dmg
+*.app
+*.o
+*.so
+*.a
+*.lib
+*.ncb
+*.sdf
+*.suo
+*.db
+*.log
+*.temp
+*.tmp
+*.bak
+
+# GameMaker IDE files
+*.yybackup
+*.yyp.backup
+.idea/
+.vscode/
+
+# Compiled game files
+*/output/
+*/build/
+*/cache/
+*/configs/
+*/html5game/
+*/android/
+*/ios/
+*/steam/
+*/debug/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
