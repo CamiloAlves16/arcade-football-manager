@@ -753,40 +753,6 @@ db_player_push("MIGUEL", "TEJON", 21, global.c_whiteskin, "SPAIN", teamcode, "MI
 db_player_push("ADRIAN", "ELLIS", 29, global.c_darkskin, "HONDURAS", teamcode, "FORWARD", 9, 2, 1, 2, 1, 1, 1, 1, 3, 0, reputation);
 db_player_push("MANUEL", "TAVARES", 21, global.c_whiteskin, "PORTUGAL", teamcode, "FORWARD", 79, 1, 1, 1, 2, 1, 1, 1, 3, 2, reputation);
 
-/*
-TURKEY
-db_player_push("EMILSON", "MORAES", 32, global.c_whiteskin, "BRAZIL", teamcode, "GOALKEEPER", 31, 2, 3, 2, 3, 3, 1, 1, 1, 0, reputation);
-db_player_push("ANTONIO", "ONANA", 28, global.c_darkskin, "CAMEROON", teamcode, "GOALKEEPER", 24, 2, 2, 2, 3, 3, 1, 1, 1, 0, reputation);
-
-idnumber = 10 + array_length(global.team_list);
-teamcode = "t" + string(idnumber);
-reputation = 3;
-db_team_push("AL-NASSR F.C.", "A.F.C", c_yellow, c_blue, c_black, "sleeves", 1, "l99", 200000000, reputation);
-db_coach_push("JORGE", "JESUS", 71, global.c_whiteskin, "PORTUGAL",teamcode, reputation, "balanced");
-reputation = 5;
-db_player_push("CRISTIANO", "RONALDO", 40, global.c_whiteskin, "PORTUGAL", teamcode, "FORWARD", 7, 3, 1, 3, 2, 1, 1, 2, 3, 0, reputation);
-db_player_push("JOAO", "FELIX", 25, global.c_whiteskin, "PORTUGAL", teamcode, "FORWARD", 79, 3, 1, 2, 3, 1, 1, 2, 3, 1, reputation);
-db_player_push("SADIO", "MANE", 33, global.c_darkskin, "SENEGAL", teamcode, "FORWARD", 10, 3, 1, 2, 3, 1, 1, 3, 3, 0, reputation);
-
-idnumber = 10 + array_length(global.team_list);
-teamcode = "t" + string(idnumber);
-reputation = 3;
-db_team_push("INTER MIAMI C.F.", "I.M.C.F.", make_color_rgb(241,110,170), c_black, c_aqua, "shorts", 1, "l99", 50000000, reputation);
-reputation = 5;
-db_coach_push("JAVIER", "MASCHERANO", 41, global.c_whiteskin, "ARGENTINA",teamcode, reputation, "balanced");
-db_player_push("LIONEL", "MESSI", 38, global.c_whiteskin, "ARGENTINA", teamcode, "FORWARD", 10, 3, 3, 1, 3, 1, 1, 3, 3, 0, reputation);
-db_player_push("LUIS", "SUAREZ", 38, global.c_whiteskin, "URUGUAY", teamcode, "FORWARD", 9, 2, 1, 2, 3, 1, 1, 1, 3, 0, reputation);
-db_player_push("RODRIGO", "DE PAUL", 31, global.c_whiteskin, "ARGENTINA", teamcode, "MIDFIELDER", 7, 2, 3, 2, 2, 1, 1, 3, 1, 0, reputation);
-db_player_push("SERGIO", "BUSQUETS", 37, global.c_whiteskin, "SPAIN", teamcode, "MIDFIELDER", 5, 1, 3, 2, 3, 1, 2, 3, 1, 0, reputation);
-db_player_push("JORDI", "ALBA", 36, global.c_whiteskin, "SPAIN", teamcode, "DEFENDER", 18, 2, 2, 1, 3, 1, 3, 2, 1, 0, reputation);
-
-idnumber = 10 + array_length(global.team_list);
-teamcode = "t" + string(idnumber);
-reputation = 4;
-db_team_push("SANTOS F.C.", "S.F.C.", c_white, c_white, c_black, "shorts", 0, "l99", 20000000, reputation);
-reputation = 5;
-db_player_push("NEYMAR", "JUNIOR", 33, global.c_lightskin, "BRAZIL", teamcode, "FORWARD", 10, 3, 2, 1, 3, 1, 1, 3, 3, 0, reputation);
-*/
 
 for (var i = 0; i < array_length(global.player_list); ++i) {
 	calculate_value(global.player_list[i]);
